@@ -12,7 +12,7 @@ parameters {
         stage ("Code pull"){
             steps{
                 checkout scm
-                echo ${WORKSPACE}
+                echo "${WORKSPACE}"
             }
         }
 
