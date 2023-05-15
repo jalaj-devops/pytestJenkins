@@ -1,11 +1,18 @@
 pipeline {
     agent any
-
+parameters {
+    
+ 
+        choice(name: 'BRANCH', choices: ['main', 'Dev'], description: 'Choose branch')
+ 
+    
+    }
     stages {
 
         stage ("Code pull"){
             steps{
                 checkout scm
+                echo ${WORKSPACE}
             }
         }
 
