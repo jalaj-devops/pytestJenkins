@@ -3,7 +3,7 @@ pipeline {
 parameters {
     
  
-        choice(name: 'BRANCH', choices: ['main', 'Dev'], description: 'Choose branch')
+        choice(name: 'BRANCH', choices: ['main', 'dev'], description: 'Choose branch')
  
     
     }
