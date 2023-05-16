@@ -26,7 +26,7 @@ parameters {
         }
         stage('SonarQube analysis') {
         steps{
-        echo ${scannerHome}
+        echo "${scannerHome}"
  
     }
   }
