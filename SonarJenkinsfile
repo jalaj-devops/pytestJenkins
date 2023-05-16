@@ -27,7 +27,7 @@ parameters {
         stage('SonarQube analysis') {
         steps{
                withSonarQubeEnv('test-sonar-server') { // If you have configured more than one global server connection, you can specify its name
-              sh "/Users/jalajsahni/Downloads/sonar-scanner-4.8.0.2856-macosx/bin/sonar-scanner"
+              sh "/Users/jalajsahni/Downloads/sonar-scanner-4.8.0.2856-macosx/bin/sonar-scanner -Dproject.settings=./sonar-project.properties"
     }
  
     }
