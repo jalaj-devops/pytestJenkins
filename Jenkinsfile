@@ -13,6 +13,8 @@ parameters {
             steps{
                 checkout scm
                 echo "${WORKSPACE}"
+                echo "${JAVA_INSTALLATION_PATH}"
+                echo "${BUILD_URL}"
             }
         }
 
