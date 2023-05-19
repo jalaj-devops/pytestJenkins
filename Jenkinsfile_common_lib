@@ -1,0 +1,5 @@
+@Library([common-pipeline-lib@master]) _
+common_pipeline
+{
+enable_stages = ['code_checkout']
+}
