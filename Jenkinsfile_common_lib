@@ -4,6 +4,6 @@
 cp
 {
 
-buildNode = 'default'
+buildNode = 'master'
 enable_stages = ['code_checkout']
 }
