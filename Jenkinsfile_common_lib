@@ -1,10 +1,10 @@
 @Library(['common-pipeline-lib@master']) _
 
-buildNode = "DEFAULT"
 
 cp
 {
 
+buildNode = "DEFAULT"
 
 enable_stages = ['code_checkout']
 }
