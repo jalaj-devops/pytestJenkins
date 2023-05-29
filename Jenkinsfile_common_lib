@@ -8,6 +8,6 @@ buildNode = 'master'
 checkout_folder = '/Users/jalajsahni/Documents/Checkoutfol'
 enable_stages = ['code_checkout','b_and_u_test']
 
-unitTestCommand = 'pip3 install -r requirements.txt'
+unitTestCommand = 'echo "entering unit test command parameter"'
 
 }
