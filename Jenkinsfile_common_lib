@@ -5,7 +5,7 @@ cp
 {
 
 buildNode = 'master'
-checkout_folder = '/Users/jalajsahni/Documents/Checkoutfol'
+checkout_folder = '/Users/jalajsahni/Documents/ws'
 enable_stages = ['code_checkout','b_and_u_test']
 
 unitTestCommand = 'cd ${WORKSPACE}; pip3 install -r requirements.txt'
